@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<script src="\node_modules\angular\angular.js"></script>
+
+<script type="/text/javascript" src="/js/myCtrl.js"></script>
+<body ng-app="myApp">
+
+<div ng-controller="myCtrl as ctrl">
+	<h1>Hello, World!</h1>
+
+<form>
+<p>Would you like to visit my site?</p>
+<input type="radio" value="da" ng-model="ctrl.answer">Da
+<input type="radio" value="nu" ng-model="ctrl.answer">Nu
+</form>
+
+<div ng-hide="true">
+	<p>Too bad, it would have been a nice journey! :(</p>
+</div>
+
+<div ng-hide="true">
+<p>Welcooome</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
